@@ -10,7 +10,7 @@ services:
     volumes:
       - ./data:/data
     environment:
-      - TZ=UTC
+      - TZ=Asia/Kolkata
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080"]
       interval: 30s
